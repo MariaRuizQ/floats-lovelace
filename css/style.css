@@ -1,0 +1,37 @@
+body{
+  font-family: 'Dosis', sans-serif;/*le doy la tipografía que he elegido por medio del Google Font*/
+}
+/*llamo a mi etiqueta h1, para darle el diseño que deseo que se vea*/
+h1{
+  outline: 3px solid fuchsia; /*utilizo la propiedad outline para dar contorno al borde, el ancho y el color que deseo*/
+  text-align: center; /*le doy una alineación centrada al título*/
+  position: relative; /*coloco la posición relative*/
+}
+/*llamo a la propiedad caja*/
+.caja{
+  /*le doy el alto, anchura, borde, margen que deseo al bloque*/
+  width: 450px;
+  padding: 15px;
+  border: 5px solid purple;
+  border-style: dotted; /*le doy un estilo punteado al borde*/
+  box-sizing: border-box;
+  margin: 20px;
+  margin-left: 40px; /*le doy un espacio hacia la deracha, entre cada bloque, mediante un margen*/
+  float: left; /*Meidante float especifica hacia donde debe salir el bloque*/
+  border-radius: 10%; /*le añado un borde redondeado*/
+  }
+/*llamo a la propiedad img*/
+img{
+  outline: 0px; /*como no deseo darle ningún contorno ala imagen, no le coloco pixeles*/
+  max-width: 70%; /*si deseo darle un tamaño específico para darle un forma (triángulo, círculo, cuadrado,...) le daré un ancho, alto*/
+  display:block; /*convierto la imagen en bloque*/
+  margin:auto;/*le doy el margen en auto, para que la imagen este centrada en el bloque*/
+  border-radius: 50%;
+  -moz-border-radius: 50%; /*si huebira especificado el ancho y alto de la imagen; en vez de darle un porcentaje específico, con esto podría darle la forma que deseo que aparezca la imagen. por ahora solo deseo que aparazca en forma circular; así que solo si deseo no coloco esto*/
+  -webkit-border-radius:50%;
+
+}
+p{
+  outline: 3px solid green;
+  border-style:double; /*le doy un estilo doble borde, al borde*/
+}
